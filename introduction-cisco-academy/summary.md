@@ -48,3 +48,21 @@ helps organizations establish and evaluate information security initiatives by c
 - **Awareness, training and education** are the measures put in place by an organization to ensure that users are knowledgable about potential security threat and the actions they can take to protect information systems.
 - **Technology** refers to the software- and hardware-based solutions designed to protect information systems such as firewalls, which continuously monitor your network in search of possible malicious incidents.
 - **Policy and procedure** refers to the administrative controls that provive a foundation for how an organization implements information assurance, such as incident response plans and best practice guidelines.
+
+## Data security breaches
+
+A security breach is an incident that results in unauthorized  access to data, applications, services or devices, exposing private information that attackers can use for financial gain or other advantages
+But there are many way to protect yourself and your organization. It's important to be aware of common cyber threats and remain vigitalnt so that you don't become the next victim
+
+## types of hackers
+- **Amateurs**: inexperience hackers or script kiddies, people who use existing tools or instruction found in the internet to launch attacks
+- **Hackers**: break into computer systems or networkss to gain access. depending on the intent of their break in, they can be classified as:
+  - **White Hat Attackers**: break into networks or computers systemms to identify any weaknesses so that the security of a system or network can be improved. These break-ins are done with prior permission and any result are repoerted back to the owner.
+  - **Gray Hat Attackers**: may set out to find vulnerabilities in a system but they will only report their findings to the owners of a system if doing so coincides with their agenda. Or they might even publish details about the vulnerability on the internet so that other attackers can exploit it.
+  - **Black Hat Attackers**: take advante of any vulnerability for illegal personal, financial or political gain
+- **Organized Hackers**: these attackers include organization of cyber criminals, hacktivist, terrorist and state-sponsored hackers. They are usually highly sophisticated and organized, and may even provide cybercrime as a a service to other criminals.
+  - **Hacktivist** make political statements to create awareness about issues that are important to them.
+  - **State-sponsored** attackers gather intelligence or commit sabotage on behalf of their government. They are usually highly trained and well-funded and their attacks are focused on specific goals that are beneficial to their government
+
+## Cyberwarfare
+is the use of technology to ponetrate nad attack anothernation's computer systmes and network in an effort to cause dmage or disrupt services such as shutting down a power grid
