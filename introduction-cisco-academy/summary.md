@@ -22,7 +22,7 @@ Online identity: you online (username and how you present yourself online)
 - **intellectual property**: such as patents, trademark and new product plans, which allow an organization to gain economic advantage over its competitors. This information is often considered a trade secret and losing it could prove disastrous for the future of a company.
 - **Financial data**: such as income statements, balance sheets and cash flow statements, which provide insight into the health of a company.
 
-**internet of things (IoT) and big data**: IoT is a large network of physical objects, such as sensors, software and other equipment. All of these things are connected to the internet, with the ability to collect and share data. And given that storage options are expanding through the cloud and virtualization, it's no surprise that the emerge of IoT has led to an exponential growth in data, creaing a new area of intereset in technology and business called 'Big Data'.
+**internet of things (IoT) and big data**: IoT is a large network of physical objects, such as sensors, software and other equipment. All of these things are connected to the internet, with the ability to collect and share data. And given that storage options are expanding through the cloud and virtualisation, it's no surprise that the emerge of IoT has led to an exponential growth in data, creating a new area of interest in technology and business called 'Big Data'.
 
 ## the cube (Jhon McCumber 1991)
 
@@ -144,3 +144,66 @@ The goal of software updates are to stay current and avoid exploitation of vulne
 2. Approximately every ten minutes, special computers collect data about the latest cryptocurrency transactions, turning them into mathematical puzzles to maintain confidentiality. These transactions are then verified through a technical and highly complex process known as 'mining'. This step typically involves an army of 'miners' working on high-end PCs to solve mathematical puzzles and authenticate transactions
 3. once verified, the ledger is updated and electronically copied and disseminated worldwide to anyone belonging to the blockchain network, effectively completing a transaction
 - **Cryptojacking** is an emerging threat that hides on a user's computer, mobile phone, tablet, laptop or server, using that machine's resources to 'mine' cryptocurrencies without the user's consent or knowledge. Many victims didn't know until it was too late.
+
+## Protecting your data and privacy
+### Protecting your computer devices
+some tips to protect your device
+1. **Turn the firewall on**: you should use at least one type of firewall (either a software firewall or a hardware firewall on a router) to protect your device from unauthorized access the firewall should be turned on and constantly updated to prevent hackers from accessing your personal or organization data.
+2. **Install antivirus and antispyware** you should always download software from trusted websites. However, you should always use antivirus software to provide another layer of protection. This software, which often includes antispyware, is designed to scan your computer and incoming email for viruses and delete them. Keeping your software up to date will protect your computer from any new malicious software that emerges.
+3. **Manage your operating system and browser** Hacker are always trying to take advantage of vulnerabilities that may exist in your operating system (Microsoft, browser, etc.). Therefore, to protect your computer and your data, you should set the security settings on your computer and browser to medium level or higher. You should also regularly update your computer's operating system, including your web browser, and download and install the latest software patches and security updates from the vendors.
+4. **Set up password protection** all of your computing devices, including PCs, laptops, tablets and smartphones, should be password protected to prevent unauthorized access. Any sorted information, especially sensitive or confidential data, should be encrypted, You should only store necessary information on your mobile device, in case it is stole or lost. Remember, if any one of your devices is compromised, the criminals may be able to access all of your data through your cloud storage service provider (icloud, google drive)
+
+## Wireless network security at home
+Wireless networks allow Wi-Fi enabled devices, such as laptops and tablets, to connect to the network by way of a present network identified, known as the *service set identifier* (SSID). Although a wireless router can be configured so that it doesn't broadcast the SSID, this should not be considered adequate security for a wireless network. Hackers will be aware of the present SSID and default password. Therefore, these details should be changed to prevent intruders from entering your home wireless network. Furthermore, you should encrypt wireless communication by enabling wireless security and the WPA2 encryption feature on your wireless router. But be aware, even with WPA2 encryption enabled, a wireless network can still be vulnerable.
+
+This vulnerability can be exploited by key reinstallation attacks kRACKs by intruders. Attackers break the encryption between a wireless router and a wireless device, giving them access to network data. This flaw affects all modern protected Wi-Fi networks. To prevent this:
+- update all wireless capable devices asap
+- use a wired connection
+- use a trusted *virtual private network* VPN when accessing a wireless network
+## Public Wi-Fi risks
+you should always verify that your device isn't configured with file and media sharing and that it requires user authentication with encryption. You should also use an encrypted VPN service to prevent others from intercepting your information (known as 'eavesdropping') over a public wireless network. This service gives you secure access to the internet, by encrypting the connection between your device and the VPN server. Even if hackers intercept a data transmission in an encrypted VPN tunnel, they will not be able to decipher it
+
+## Password security
+use a strong password, do not repeat it across accounts. Use a passphrase instead of a password since is harder to crack by brute-force and is easy to remember
+
+## Data maintenance
+- **Encryption** is the process of converting information into a form in which unauthorized parties cannot read it. Only a trusted authorized person with the secret key or password can decrypt the data and access it in its original form. Note that the encryption itself does not prevent someone from intercepting the data. It can only prevent an unauthorized person from viewing or accessing the content. In fact, some criminals may decide to simply encrypt your data and make it unusable until you pay a ransom.
+- **Backup** your data to prevent loss of irreplaceable data
+
+## how to delete data permanently
+1. overwrite it with 1's and 0's multiple times, using tools like SDelete (microsoft), Shred (linux), Secure empty thrash (Mac OS X).
+2. physical destroy the hard drive or storage device. Many criminals take advantage of files thought to be impenetrable or irrecoverable
+
+**Terms of service (TOS)** is a legally binding contract that governs the rules of the relationship between you, the service provider and others who use the service.
+- data use policy: outlines how the service provider will collect, use and share your data.
+- privacy settings: allow you to control who sees information about you and who can access your profile or account data.
+- security policy: outlines what the company is doing to secure the data it obtains from you.
+
+# Protecting your data and privacy
+
+## factors to consider before you sign up
+- have you read the TOS
+- what are your rights regarding your data?
+- can you request a copy of your data?
+- what can the provider do with the data you upload?
+- what happens to your data when you close your account?
+
+## Safeguarding your online privacy
+- **Two factor authentication** besides your username and password or personal identification number (PIN)m two factor authentication requires a second token to verify your identity. This may be a:
+   - physical object such as a credit card, mobile phone.
+   - biometric scan such as a fingerprint or facial and voice recognition.
+   - verification code sent via SMS or email.
+- **Open Authorization (OAuth)** is an open standard protocol that allows you to use your credentials to access third-party applications without exposing your password.
+- **Social sharing** you decide to update your new job position on your social networks. When doing so, one of the sites asks you to update your profile information to ensure you receive the content that you really don't want to miss!
+
+# Protecting the organization
+
+## Security appliances
+can be standalone devices like a router or software tools that are run on a network device. They fall into six general categories.
+- **Routers** while are primarily used to interconnect various network segments together, they usually also provide basic traffic filtering capabilities. This information can help you define which computers from a given network segment can communicate with which network segments.
+- **Firewalls** can look deeper into the network traffic itself and identify malicious behavior that has to be blocked. Firewalls can have sophisticated security policies applied to the traffic that is passing through them.
+- **Intrusion prevention systems (IPS)** use a set of traffic signatures that match and block malicious traffic and attacks
+- **Virtual private network (VPN)** systems let remote employees use a secure encrypted tunnel from their mobile computer and securely connect back to the organization's network. VPN systems can also securely interconnect branch offices with the central office network.
+- **Antimalware or antivirus** these systems use signatures or behavioral analysis of applications to identify and block malicious code from being executed
+- **Other security devices** include web and email security appliances, decryption devices, client access control servers and security management systems
+- 
