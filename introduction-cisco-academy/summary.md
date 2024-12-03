@@ -202,8 +202,96 @@ use a strong password, do not repeat it across accounts. Use a passphrase instea
 can be standalone devices like a router or software tools that are run on a network device. They fall into six general categories.
 - **Routers** while are primarily used to interconnect various network segments together, they usually also provide basic traffic filtering capabilities. This information can help you define which computers from a given network segment can communicate with which network segments.
 - **Firewalls** can look deeper into the network traffic itself and identify malicious behavior that has to be blocked. Firewalls can have sophisticated security policies applied to the traffic that is passing through them.
-- **Intrusion prevention systems (IPS)** use a set of traffic signatures that match and block malicious traffic and attacks
+- **Intrusion prevention systems (IPS)** use a set of traffic signatures that match and block malicious traffic and attacks.
 - **Virtual private network (VPN)** systems let remote employees use a secure encrypted tunnel from their mobile computer and securely connect back to the organization's network. VPN systems can also securely interconnect branch offices with the central office network.
-- **Antimalware or antivirus** these systems use signatures or behavioral analysis of applications to identify and block malicious code from being executed
-- **Other security devices** include web and email security appliances, decryption devices, client access control servers and security management systems
-- 
+- **Antimalware or antivirus** these systems use signatures or behavioral analysis of applications to identify and block malicious code from being executed.
+- **Other security devices** include web and email security appliances, decryption devices, client access control servers and security management systems.
+
+## Firewalls
+In computer networking, a firewall is designed to control or filter which communication are allowed in and which are allowed out of a device or network. A firewall can be installed on a single computer with the purpose of protecting that one computer (host-based firewall) or it can be a standalone network device that protects an entire netwrok of computers and all of the host devices on that network (network-based firewall)
+
+- **Network layer firewall** this filters communications based on source and destination IP addresses.
+- **Transport layer firewall** filters communication based on source and destination data ports, as well as connection states.
+- **Applicattion layer firewall** filters communications based on an application, program or service
+- **Context aware layer firewall** filters communications based on the user, device, role, application type and threat profile.
+- **Proxy server** filters web content requests like URLs, domain names and media types.
+- **Reverse proxy server** placed in front of web servers, reverse proxy servers protect, hide, offload and distribute access to web servers.
+- **Network address translation (NAT) firewall** this firewall hides or masquerades the private addresses of network hosts.
+- **Host-based firewall** filters ports and system service calls on a single computer operating system
+
+## Port scanning
+in networking, each application running on a device is assigned an identifier called a port number. This port number is ued on both ends of the transmission so that the right data is passed to the correct application. Port scanning is a process of probing a computer, server or other network host for open ports. It can be used maliciously as a reconnaissance tool to identify the operating system and services running on a computer or host, or it can be used harmlessly by a network administrator to verify network security policies on the network.
+
+## Intrusion Detection and Prevention systems
+Intrusion detection systems (IDSs) and intrusion prevention system (IPSs) are security measures deployed on a network to detect and prevent malicious activities.
+- **Intrusion detection systems (IDS)** can be either be a dedicated network device or one of several tools in a server, firewall or even a host computer operating system, such as windows or Linux, that scans data against a database of rules or attack signatures, looking for malicious traffic. If a match is detected, the ids will log the detection and create an alert for a network administrator. It will not take action and therefore it will not prevent attacks from happening. The job of the IDS is to detect, log and report. The scanning performed by the IDS slows down the network (known as latency). To prevent network delay, an IDS is usually placed offline, separate from regular network traffic. Data is copied or mirrored by a switch and then forwarded to the IDS for offline detection.
+- **intrusion prevention system (IPS)** can block or deny traffic based on a positive rule or signature match. One of the most well-known IPS/IDS system is Snort. The commercial version of Snort is Cisco's sourcefire. Sourcefire can perform real-time traffic and port analysis, logging, content searching and matching, as well as detect probes attacks and execute port scans. it also integrate with other third-party tools for reporting, performance and log analysis.
+
+## Real-time detection
+many organizations today are unable to detect attacks until days or even months after they occur:
+detecting attacks in real time requires actively scanning for attacks using firewall and IDS/IPS network devices. Next generation client and server malware detection with connections to online global threat centers must also be used. Today, active scanning devices and software must detect network anomalies using context-based analysis and behavior detection.
+DDoS is one of the biggest attack threats requiring real-time detection and response. For many organizations, regularly occurring DDoS attacks cripple internet servers and network availability. These attacks are extremely difficult to defend against because the attacks originate from hundreds, even thousands, of zombie hosts, and the attacks appear as legitimate traffic
+
+## Protecting against malware
+one way of defending against zero-day attacks and advanced persistent threats (APTs) is to use an enterprise-level advanced malware detection solution, like Cisco's advanced malware protection (AMP) threat grid. This is client/server software that can be deployed on host endpoints, as a standalone server or on other network security devices. It analyzes millions of files and correlates them against hundreds of millions of other analyzed malware artifacts for behaviors that reveal an APT. This approach provides a global view of malware attacks, campaigns and their distribution.
+
+## Security best practices
+Many national and professional organizations have published list of security best practices. Some of the most helpful guidelines are found in organizational repositories such as the National institute of standards and technology (NIST) Computer security resources center.
+- **Perform a risk assessment** knowing and understanding the value of what you are protecting will help to justify security expenditures
+- **Create a security policy** create a policy that clearly outlines the organization's rules, job roles, and responsibilities and expectations for employees.
+- **Physical security measures** restrict access to networking closets and server locations, as well as fire suppression
+- **Human resoureces security measures** background check should be completed for all employees
+- **perform and test backups** back up information regularly and test data recovery from backups.
+- **Maintain security patches and updates** regularly update server, client and network device operating systems and programs.
+- **Employ access controls** configure user roles and privilege levels as well as strong user authentication.
+- **Regularly test incident response** employ an incident response team and test emergency response scenarios.
+- **Implement a network monitoring, analytics and management tool** choose a security monitoring solution that integrates with other technologies.
+- **Implement network security devices** use next generation routers, firewalls and other security appliances.
+- **Implement a comprehensive endpoint security solution** use enterprise level anti-malware and antivirus software
+- **educate users** provide training to employees in security procedures. One of the most widely known and respected organizations for cybersecurity training is the SANS institute.
+- **Encrypt data** encrypt all sensitive organizational data, including email.
+
+## Behavior approach to cybersecurity
+behavior-based security is a form of threat detection that involves capturing and analyzing the flow of communication between a user on the local network and a local or remote destination. Any changes in normal patterns of behavior are regarded as anomalies, and may indicate an attack.
+two behavior-based detection tools:
+- **honeypots** is a behavior-based detection tool that lures the attacker in by appealing to their predicament pattern of malicious behavior. Once the attacker is inside the honeypot, the network administrator can capture, log and analyze their behavior so that they can build a better defense
+- **Cisco's cyber threat defense solution architecture** this security architecture uses behavior-based detection and indicators to provide greater visibility, context and control. The aim is to know who is carrying out the attack, what type of attack they are performing and where, when and how the attack is taking place. This security architecture uses many security technologies to achieve this goal.
+
+## netflow
+netflow technology is used to gather information about data flowing through a network, including who and what devices are in the network, and then and how users and devices access the network. netflow is an important component in behavior-based detection and analysis. switches, routers, and firewalls equipped with netflow can report information about data entering, leaving and traveling through the network. This information is sent to netflow collection that collect, store and analyze netflow data, which can be used to establish baseline behaviors on more than 90 attributes, such as source and destination IP address
+
+## Penetration testing
+penetration testing, is commonly known as pen testing, is the act of assessing a computer system, network or organization for security vulnerabilities. A pen test seeks to breach systems, people, processes and code to uncover vulnerabilities which could be exploited. This information is then used to improve the system's defense to ensure that it is better able to withstand cyber attacks in the future. There is five steps for the process
+1. **Planning** the pen tester gathers as much information as possible about a target system or network, its potential vulnerabilities and exploits to use against it. This involves conducting passive or active reconnaissance (footprinting) and vulnerability research.
+2. **Scanning** the pen tester carries out active reconnaissance to probe a target system or network and identify potential weaknesses which, if exploited, could give an attacker access. Active reconnaissance may include:
+  - port scanning to identify potential access points into a target system
+  - vulnerability scanning to identify potential exploitable vulnerabilities of a particular target
+  - establishing an active connection to a target (enumeration) to identify the user account, system account and admin account.
+3. **Gaining access** the pen tester will attempt to gain access to a target system and sniff network traffic, using various methods to exploit the system including:
+  - launching an exploit with a payload onto the system
+  - breaching physical barriers to assets
+  - social engineering
+  - exploiting website vulnerabilities
+  - exploiting software and hardware vulnerabilities or misconfigurations
+  - breaching access controls security
+  - cracking weak encrypted Wi-Fi
+4. **Maintaining access** the pen tester will maintain access to the target or find out what data and systems are vulnerable to exploitation. It is important that they remain undetected, typically using backdoors, Trojan horses, rootkits and other covert channels to hide their presence. When this infrastructure is in place, the pen tester will then proceed to gather the data that they consider valuable.
+5. **Analysis and reporting** the pen tester will provide feedback via a report that recommends updates to products, policies and training to improve an organization's security.
+
+## Impact reduction
+while most organizations today are aware of common security threats and put considerable effort into preventing them, no set of security practices is foolproof. Therefore, organizations must be prepared to contain the damage if a security breach occurs. And they must act fast. Actions organizations should take when security breach is identified.
+- **Communicate the issue** communication creates transparency, which is critial in this type of istuation. Internally, all employees should be informed and clear call to action communicated. Externally, all clients should be informed through direct communication and official announcements.
+- **Be sincere and accountable** Respond to the breach in an honest and genuine way, taking responsibility where the organization is at fault.
+- **Provide the details** Be open and explain why the breach took place and what information was compromised. Organizations are generally expected to take care of any client cost associated with identify theft services required as a result of a security breach.
+- **Find the cause** Take steps to understand what caused and facilitated the breach. This may involve hiring forensics experts to research and find out the details.
+- **Apply lessons learned** make sure that any lessons learned from forensic investigations are applied to prevent similar breaches from happening in the future.
+- **Check, and check again** attackers will often attempt to leave a backdoor to facilitate future breaches. To prevent this form happening, make sure that all systems are clean, no backdoors are installed and nothing else has been compromised
+- **Educate** raise awareness, and educate employees, partners and clients on how to prevent future breaches.
+
+## Risk management
+Risk management is the formal process of continuously identifying and assessing risk in an effort to reduce the impact of threats and vulnerabilities. you cannot eliminate risk completely but you can determine acceptable levels by weighing up the impact of threat with the cost of implementing controls to mitigate it. The cost of a control should never be more than the value of the asset you are protecting
+
+- **Frame risk** identify the threats that increase risk, threats may include processes, products, attacks, potential failure or disruption of services, negative perception of an organization's reputation, potential legal liability or loss of intellectual property.
+- **Assess the risk** determine the severity that each threat poses. For example. Some threats may have the potential to bring an entire organization to a standstill, while other threats may be only minor inconveniences. Risk can be prioritized by assessing financial impact (a quantitative analysis) or scaled impact on an organization's operation (a qualitative analysis)
+- **Respond to risk** Develop an action plan to reduce overall organization risk exposure, detailing where risk can be eliminated, mitigated, transferred or accepted.
+- **Monitor the risk** Continuously review any risk reduced through elimination, mitigation or transfer actions, Remember, not all risk can be elminated, so you will need to closely monitor any threats that have been accepted.
