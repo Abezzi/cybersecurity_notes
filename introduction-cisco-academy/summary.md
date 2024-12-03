@@ -295,3 +295,52 @@ Risk management is the formal process of continuously identifying and assessing 
 - **Assess the risk** determine the severity that each threat poses. For example. Some threats may have the potential to bring an entire organization to a standstill, while other threats may be only minor inconveniences. Risk can be prioritized by assessing financial impact (a quantitative analysis) or scaled impact on an organization's operation (a qualitative analysis)
 - **Respond to risk** Develop an action plan to reduce overall organization risk exposure, detailing where risk can be eliminated, mitigated, transferred or accepted.
 - **Monitor the risk** Continuously review any risk reduced through elimination, mitigation or transfer actions, Remember, not all risk can be elminated, so you will need to closely monitor any threats that have been accepted.
+
+## Security playbook
+One of the best ways to prepare for a security breach is to prevent it. Organizations should provide guidance on:
+- how to identify the cybersecurity risk to systems, assets, data and capabilities
+- the implementation of safeguards and personnel training
+- a flexible response plan that minimizes the impact and damage in the events of a security breach
+- security measures and processes that need to be put in place in the aftermath of a security breach.
+
+all this information should be compiled in a security playbook, this is a collection of repeatable queries or reports that outline a standardized process for incident detection and response. Ideally, a security playbook should"
+- highlight how to identify and automate the response to common threats such as the detection of malware-indected machines, supicious network activity or irregular authentication attempts.
+- describe and clearly define inbound and outbound traffic.
+- provide summary information including trends, statics, and counts.
+- provide usable and quick access to key statics and metrics.
+- correlate events across all relevant data sources.
+
+## Tools for incident detection and prevention
+- **Security information and event management (SIEM)** system collects and analyzes security alerts, logs and other real-time and historical data from security devices on the network to facilitate early detection of cyber attacks.
+- **Data loss prevention (DLP)** system is designed to stop sensitive data from being stolen from or escaping a network. it monitors and protects data in three different states: data in use (data being accessed by a user), data in motion (data traveling through the network) and data at rest (data stored in a computer network or device)
+
+## Cisco's ISE and TrustSec
+
+Cisco identity services Engine (ISE) and TrustSec enforce user access to network resources by creating role-based access control policies
+
+# Legal and ethical issues
+
+## Personal legal issues
+At work or home, you may have the opportunity and skills to hack another person's computer or network. but here is an old sayin, 'just because you can does not mean you should.' Most hacks leave tracks, which can be traced back to you.
+Cybersecurity professionals develop many skills, which can be used positively or illegally. There is always a huge demand for those who choose to put their cyber skills to good use within legal bounds.
+
+## Corporate legal issues
+Most countries have cybersecurity laws in place, which businesses and organizations must abide by. In some cases, if you break cybersecurity laws while doing your job, the organization may be punished and you could lose your job. In other cases, you could be prosecuted, fined and possibly sentenced. In general, if you are unsure whether an action or behavior might be illegal, assume that it is illegal and do not do it. Always check with the legal or HR department in the organization.
+
+## International law and cybersecurity
+International cybersecurity law is a constantly evolving field. Cyber attacks take place in cyberspace, an electronic space created, maintained and owned by both the public and private entities. There are no traditional geographic boundaries in cyberspace. To further complicate issues, it is much easier to mask the source of a attack in cyberwarfare than in conventional warfare. The global society is still debating how best to deal with cyberspace. Country practice, opinion juris (a sense on behalf of a country that is bound to the law in question) and any treaties drafter will shape international cybersecurity law.
+
+## Ethical issues in cybersecurity
+Ask yourself the following questions to help decide on the best course of action
+- is it legal
+- does your action comply with your organization policy?
+- will your action be favorable for your organization and its stakeholders?
+- would it be okay if everyone in your organization took this action?
+- would the outcome of your action present your organization in a positive light in a news headline?
+
+## Most common certifications
+- **Cisco certified support technician (CCST) cybersecurity** this is an entry-level certification for newcomers who are preparing to start their career in the cybersecurity field. it is aimed at high school and early college students as well as those interested in a career change. This certificate does not expire or require periodic recertification.
+- **CompTIA Security+** this is an entry-level security certification that meets the U.S. Department of defense directive 8570.01-M requirements, which is an important item for anyone looking to work in IT security for the federal government.
+- **EC Council certified ethical hacker (CEH)** This certification tests your understanding and knowledge of how to look for weaknesses and vulnerabilities in target systems using the same knowledge and tools as a malicious hacker but in a lawful and legitimate manner.
+- **ISC2 Certified Information Systems Security Professional (CISSP)** this is the most recognizable and popular security certification. In order to take the exam, you need to have at least five years of relevant industry experience.
+- **Cisco Certified CyberOps Associate** this certification validates the skills required of associate-level cybersecurity analyst within security operations centers.
